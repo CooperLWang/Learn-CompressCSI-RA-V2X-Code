@@ -1,0 +1,1414 @@
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\python.exe D:/Simulation/Learn-RA-V2X-Code/D-Decision/Dist-Dec-RealFB/RL_Train_main.py
+Using TensorFlow backend.
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+-----Start the Number -- 1 -- training -----!
+2019/11/15 23:03:42
+Training Parameters Settings in the Train Function are: 
+Number of feedback:  3
+Discount Factor Gamma:  0.05
+Batch Size:  512
+Training Episodes:  3000
+Train Steps per Episode:  20
+Number of BS output is:  16
+V2V Rate weight:  1
+V2I Rate weight:  0.1
+Create the new folder while training to save results : 
+   --->: D:\Simulation\Learn-RA-V2X-Code\D-Decision\Dist-Dec-RealFB\Train-Result-RealFB-3-Batch-512-Gamma-0.05-BSOutput-16-V2Iweight-0.1\
+Current Epsilon while Training is  1.0  Current Training Step is  0
+2019-11-15 23:03:42.194287: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-11-15 23:03:42.326831: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2019-11-15 23:03:42.330095: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: LWang-PC
+2019-11-15 23:03:42.330340: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: LWang-PC
+Save Q-Function Network model weights after Training at Episode : 5
+Save Target Network model weights after Training at Episode : 5
+Save Q-Function Network model weights after Training at Episode : 10
+Save Target Network model weights after Training at Episode : 10
+Save Q-Function Network model weights after Training at Episode : 15
+Save Target Network model weights after Training at Episode : 15
+Save Q-Function Network model weights after Training at Episode : 20
+Save Target Network model weights after Training at Episode : 20
+Save Q-Function Network model weights after Training at Episode : 25
+Save Target Network model weights after Training at Episode : 25
+Save Q-Function Network model weights after Training at Episode : 30
+Save Target Network model weights after Training at Episode : 30
+Save Q-Function Network model weights after Training at Episode : 35
+Save Target Network model weights after Training at Episode : 35
+Save Q-Function Network model weights after Training at Episode : 40
+Save Target Network model weights after Training at Episode : 40
+Save Q-Function Network model weights after Training at Episode : 45
+Save Target Network model weights after Training at Episode : 45
+Save Q-Function Network model weights after Training at Episode : 50
+Save Target Network model weights after Training at Episode : 50
+Current Epsilon while Training is  0.979375  Current Training Step is  50000
+Save Q-Function Network model weights after Training at Episode : 55
+Save Target Network model weights after Training at Episode : 55
+Save Q-Function Network model weights after Training at Episode : 60
+Save Target Network model weights after Training at Episode : 60
+Save Q-Function Network model weights after Training at Episode : 65
+Save Target Network model weights after Training at Episode : 65
+Save Q-Function Network model weights after Training at Episode : 70
+Save Target Network model weights after Training at Episode : 70
+Save Q-Function Network model weights after Training at Episode : 75
+Save Target Network model weights after Training at Episode : 75
+Save Q-Function Network model weights after Training at Episode : 80
+Save Target Network model weights after Training at Episode : 80
+Save Q-Function Network model weights after Training at Episode : 85
+Save Target Network model weights after Training at Episode : 85
+Save Q-Function Network model weights after Training at Episode : 90
+Save Target Network model weights after Training at Episode : 90
+Save Q-Function Network model weights after Training at Episode : 95
+Save Target Network model weights after Training at Episode : 95
+Save Q-Function Network model weights after Training at Episode : 100
+Save Target Network model weights after Training at Episode : 100
+Current Epsilon while Training is  0.95875  Current Training Step is  100000
+Save Q-Function Network model weights after Training at Episode : 105
+Save Target Network model weights after Training at Episode : 105
+Save Q-Function Network model weights after Training at Episode : 110
+Save Target Network model weights after Training at Episode : 110
+Save Q-Function Network model weights after Training at Episode : 115
+Save Target Network model weights after Training at Episode : 115
+Save Q-Function Network model weights after Training at Episode : 120
+Save Target Network model weights after Training at Episode : 120
+Save Q-Function Network model weights after Training at Episode : 125
+Save Target Network model weights after Training at Episode : 125
+Save Q-Function Network model weights after Training at Episode : 130
+Save Target Network model weights after Training at Episode : 130
+Save Q-Function Network model weights after Training at Episode : 135
+Save Target Network model weights after Training at Episode : 135
+Save Q-Function Network model weights after Training at Episode : 140
+Save Target Network model weights after Training at Episode : 140
+Save Q-Function Network model weights after Training at Episode : 145
+Save Target Network model weights after Training at Episode : 145
+Save Q-Function Network model weights after Training at Episode : 150
+Save Target Network model weights after Training at Episode : 150
+Current Epsilon while Training is  0.938125  Current Training Step is  150000
+Save Q-Function Network model weights after Training at Episode : 155
+Save Target Network model weights after Training at Episode : 155
+Save Q-Function Network model weights after Training at Episode : 160
+Save Target Network model weights after Training at Episode : 160
+Save Q-Function Network model weights after Training at Episode : 165
+Save Target Network model weights after Training at Episode : 165
+Save Q-Function Network model weights after Training at Episode : 170
+Save Target Network model weights after Training at Episode : 170
+Save Q-Function Network model weights after Training at Episode : 175
+Save Target Network model weights after Training at Episode : 175
+Save Q-Function Network model weights after Training at Episode : 180
+Save Target Network model weights after Training at Episode : 180
+Save Q-Function Network model weights after Training at Episode : 185
+Save Target Network model weights after Training at Episode : 185
+Save Q-Function Network model weights after Training at Episode : 190
+Save Target Network model weights after Training at Episode : 190
+Save Q-Function Network model weights after Training at Episode : 195
+Save Target Network model weights after Training at Episode : 195
+2019/11/15 23:18:04
+Current Training Episode:  200  / Total Training Episodes: 3000
+2019/11/15 23:18:07
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/15 23:18:09
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 200
+Save Target Network model weights after Training at Episode : 200
+Current Epsilon while Training is  0.9175  Current Training Step is  200000
+Save Q-Function Network model weights after Training at Episode : 205
+Save Target Network model weights after Training at Episode : 205
+Save Q-Function Network model weights after Training at Episode : 210
+Save Target Network model weights after Training at Episode : 210
+Save Q-Function Network model weights after Training at Episode : 215
+Save Target Network model weights after Training at Episode : 215
+Save Q-Function Network model weights after Training at Episode : 220
+Save Target Network model weights after Training at Episode : 220
+Save Q-Function Network model weights after Training at Episode : 225
+Save Target Network model weights after Training at Episode : 225
+Save Q-Function Network model weights after Training at Episode : 230
+Save Target Network model weights after Training at Episode : 230
+Save Q-Function Network model weights after Training at Episode : 235
+Save Target Network model weights after Training at Episode : 235
+Save Q-Function Network model weights after Training at Episode : 240
+Save Target Network model weights after Training at Episode : 240
+Save Q-Function Network model weights after Training at Episode : 245
+Save Target Network model weights after Training at Episode : 245
+Save Q-Function Network model weights after Training at Episode : 250
+Save Target Network model weights after Training at Episode : 250
+Current Epsilon while Training is  0.896875  Current Training Step is  250000
+Save Q-Function Network model weights after Training at Episode : 255
+Save Target Network model weights after Training at Episode : 255
+Save Q-Function Network model weights after Training at Episode : 260
+Save Target Network model weights after Training at Episode : 260
+Save Q-Function Network model weights after Training at Episode : 265
+Save Target Network model weights after Training at Episode : 265
+Save Q-Function Network model weights after Training at Episode : 270
+Save Target Network model weights after Training at Episode : 270
+Save Q-Function Network model weights after Training at Episode : 275
+Save Target Network model weights after Training at Episode : 275
+Save Q-Function Network model weights after Training at Episode : 280
+Save Target Network model weights after Training at Episode : 280
+Save Q-Function Network model weights after Training at Episode : 285
+Save Target Network model weights after Training at Episode : 285
+Save Q-Function Network model weights after Training at Episode : 290
+Save Target Network model weights after Training at Episode : 290
+Save Q-Function Network model weights after Training at Episode : 295
+Save Target Network model weights after Training at Episode : 295
+Save Q-Function Network model weights after Training at Episode : 300
+Save Target Network model weights after Training at Episode : 300
+Current Epsilon while Training is  0.87625  Current Training Step is  300000
+Save Q-Function Network model weights after Training at Episode : 305
+Save Target Network model weights after Training at Episode : 305
+Save Q-Function Network model weights after Training at Episode : 310
+Save Target Network model weights after Training at Episode : 310
+Save Q-Function Network model weights after Training at Episode : 315
+Save Target Network model weights after Training at Episode : 315
+Save Q-Function Network model weights after Training at Episode : 320
+Save Target Network model weights after Training at Episode : 320
+Save Q-Function Network model weights after Training at Episode : 325
+Save Target Network model weights after Training at Episode : 325
+Save Q-Function Network model weights after Training at Episode : 330
+Save Target Network model weights after Training at Episode : 330
+Save Q-Function Network model weights after Training at Episode : 335
+Save Target Network model weights after Training at Episode : 335
+Save Q-Function Network model weights after Training at Episode : 340
+Save Target Network model weights after Training at Episode : 340
+Save Q-Function Network model weights after Training at Episode : 345
+Save Target Network model weights after Training at Episode : 345
+Save Q-Function Network model weights after Training at Episode : 350
+Save Target Network model weights after Training at Episode : 350
+Current Epsilon while Training is  0.855625  Current Training Step is  350000
+Save Q-Function Network model weights after Training at Episode : 355
+Save Target Network model weights after Training at Episode : 355
+Save Q-Function Network model weights after Training at Episode : 360
+Save Target Network model weights after Training at Episode : 360
+Save Q-Function Network model weights after Training at Episode : 365
+Save Target Network model weights after Training at Episode : 365
+Save Q-Function Network model weights after Training at Episode : 370
+Save Target Network model weights after Training at Episode : 370
+Save Q-Function Network model weights after Training at Episode : 375
+Save Target Network model weights after Training at Episode : 375
+Save Q-Function Network model weights after Training at Episode : 380
+Save Target Network model weights after Training at Episode : 380
+Save Q-Function Network model weights after Training at Episode : 385
+Save Target Network model weights after Training at Episode : 385
+Save Q-Function Network model weights after Training at Episode : 390
+Save Target Network model weights after Training at Episode : 390
+Save Q-Function Network model weights after Training at Episode : 395
+Save Target Network model weights after Training at Episode : 395
+2019/11/15 23:47:58
+Current Training Episode:  400  / Total Training Episodes: 3000
+2019/11/15 23:48:03
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/15 23:48:08
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 400
+Save Target Network model weights after Training at Episode : 400
+Current Epsilon while Training is  0.835  Current Training Step is  400000
+Save Q-Function Network model weights after Training at Episode : 405
+Save Target Network model weights after Training at Episode : 405
+Save Q-Function Network model weights after Training at Episode : 410
+Save Target Network model weights after Training at Episode : 410
+Save Q-Function Network model weights after Training at Episode : 415
+Save Target Network model weights after Training at Episode : 415
+Save Q-Function Network model weights after Training at Episode : 420
+Save Target Network model weights after Training at Episode : 420
+Save Q-Function Network model weights after Training at Episode : 425
+Save Target Network model weights after Training at Episode : 425
+Save Q-Function Network model weights after Training at Episode : 430
+Save Target Network model weights after Training at Episode : 430
+Save Q-Function Network model weights after Training at Episode : 435
+Save Target Network model weights after Training at Episode : 435
+Save Q-Function Network model weights after Training at Episode : 440
+Save Target Network model weights after Training at Episode : 440
+Save Q-Function Network model weights after Training at Episode : 445
+Save Target Network model weights after Training at Episode : 445
+Save Q-Function Network model weights after Training at Episode : 450
+Save Target Network model weights after Training at Episode : 450
+Current Epsilon while Training is  0.814375  Current Training Step is  450000
+Save Q-Function Network model weights after Training at Episode : 455
+Save Target Network model weights after Training at Episode : 455
+Save Q-Function Network model weights after Training at Episode : 460
+Save Target Network model weights after Training at Episode : 460
+Save Q-Function Network model weights after Training at Episode : 465
+Save Target Network model weights after Training at Episode : 465
+Save Q-Function Network model weights after Training at Episode : 470
+Save Target Network model weights after Training at Episode : 470
+Save Q-Function Network model weights after Training at Episode : 475
+Save Target Network model weights after Training at Episode : 475
+Save Q-Function Network model weights after Training at Episode : 480
+Save Target Network model weights after Training at Episode : 480
+Save Q-Function Network model weights after Training at Episode : 485
+Save Target Network model weights after Training at Episode : 485
+Save Q-Function Network model weights after Training at Episode : 490
+Save Target Network model weights after Training at Episode : 490
+Save Q-Function Network model weights after Training at Episode : 495
+Save Target Network model weights after Training at Episode : 495
+Save Q-Function Network model weights after Training at Episode : 500
+Save Target Network model weights after Training at Episode : 500
+Current Epsilon while Training is  0.79375  Current Training Step is  500000
+Save Q-Function Network model weights after Training at Episode : 505
+Save Target Network model weights after Training at Episode : 505
+Save Q-Function Network model weights after Training at Episode : 510
+Save Target Network model weights after Training at Episode : 510
+Save Q-Function Network model weights after Training at Episode : 515
+Save Target Network model weights after Training at Episode : 515
+Save Q-Function Network model weights after Training at Episode : 520
+Save Target Network model weights after Training at Episode : 520
+Save Q-Function Network model weights after Training at Episode : 525
+Save Target Network model weights after Training at Episode : 525
+Save Q-Function Network model weights after Training at Episode : 530
+Save Target Network model weights after Training at Episode : 530
+Save Q-Function Network model weights after Training at Episode : 535
+Save Target Network model weights after Training at Episode : 535
+Save Q-Function Network model weights after Training at Episode : 540
+Save Target Network model weights after Training at Episode : 540
+Save Q-Function Network model weights after Training at Episode : 545
+Save Target Network model weights after Training at Episode : 545
+Save Q-Function Network model weights after Training at Episode : 550
+Save Target Network model weights after Training at Episode : 550
+Current Epsilon while Training is  0.773125  Current Training Step is  550000
+Save Q-Function Network model weights after Training at Episode : 555
+Save Target Network model weights after Training at Episode : 555
+Save Q-Function Network model weights after Training at Episode : 560
+Save Target Network model weights after Training at Episode : 560
+Save Q-Function Network model weights after Training at Episode : 565
+Save Target Network model weights after Training at Episode : 565
+Save Q-Function Network model weights after Training at Episode : 570
+Save Target Network model weights after Training at Episode : 570
+Save Q-Function Network model weights after Training at Episode : 575
+Save Target Network model weights after Training at Episode : 575
+Save Q-Function Network model weights after Training at Episode : 580
+Save Target Network model weights after Training at Episode : 580
+Save Q-Function Network model weights after Training at Episode : 585
+Save Target Network model weights after Training at Episode : 585
+Save Q-Function Network model weights after Training at Episode : 590
+Save Target Network model weights after Training at Episode : 590
+Save Q-Function Network model weights after Training at Episode : 595
+Save Target Network model weights after Training at Episode : 595
+2019/11/16 00:29:24
+Current Training Episode:  600  / Total Training Episodes: 3000
+2019/11/16 00:29:30
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 00:29:37
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 600
+Save Target Network model weights after Training at Episode : 600
+Current Epsilon while Training is  0.7525  Current Training Step is  600000
+Save Q-Function Network model weights after Training at Episode : 605
+Save Target Network model weights after Training at Episode : 605
+Save Q-Function Network model weights after Training at Episode : 610
+Save Target Network model weights after Training at Episode : 610
+Save Q-Function Network model weights after Training at Episode : 615
+Save Target Network model weights after Training at Episode : 615
+Save Q-Function Network model weights after Training at Episode : 620
+Save Target Network model weights after Training at Episode : 620
+Save Q-Function Network model weights after Training at Episode : 625
+Save Target Network model weights after Training at Episode : 625
+Save Q-Function Network model weights after Training at Episode : 630
+Save Target Network model weights after Training at Episode : 630
+Save Q-Function Network model weights after Training at Episode : 635
+Save Target Network model weights after Training at Episode : 635
+Save Q-Function Network model weights after Training at Episode : 640
+Save Target Network model weights after Training at Episode : 640
+Save Q-Function Network model weights after Training at Episode : 645
+Save Target Network model weights after Training at Episode : 645
+Save Q-Function Network model weights after Training at Episode : 650
+Save Target Network model weights after Training at Episode : 650
+Current Epsilon while Training is  0.731875  Current Training Step is  650000
+Save Q-Function Network model weights after Training at Episode : 655
+Save Target Network model weights after Training at Episode : 655
+Save Q-Function Network model weights after Training at Episode : 660
+Save Target Network model weights after Training at Episode : 660
+Save Q-Function Network model weights after Training at Episode : 665
+Save Target Network model weights after Training at Episode : 665
+Save Q-Function Network model weights after Training at Episode : 670
+Save Target Network model weights after Training at Episode : 670
+Save Q-Function Network model weights after Training at Episode : 675
+Save Target Network model weights after Training at Episode : 675
+Save Q-Function Network model weights after Training at Episode : 680
+Save Target Network model weights after Training at Episode : 680
+Save Q-Function Network model weights after Training at Episode : 685
+Save Target Network model weights after Training at Episode : 685
+Save Q-Function Network model weights after Training at Episode : 690
+Save Target Network model weights after Training at Episode : 690
+Save Q-Function Network model weights after Training at Episode : 695
+Save Target Network model weights after Training at Episode : 695
+Save Q-Function Network model weights after Training at Episode : 700
+Save Target Network model weights after Training at Episode : 700
+Current Epsilon while Training is  0.7112499999999999  Current Training Step is  700000
+Save Q-Function Network model weights after Training at Episode : 705
+Save Target Network model weights after Training at Episode : 705
+Save Q-Function Network model weights after Training at Episode : 710
+Save Target Network model weights after Training at Episode : 710
+Save Q-Function Network model weights after Training at Episode : 715
+Save Target Network model weights after Training at Episode : 715
+Save Q-Function Network model weights after Training at Episode : 720
+Save Target Network model weights after Training at Episode : 720
+Save Q-Function Network model weights after Training at Episode : 725
+Save Target Network model weights after Training at Episode : 725
+Save Q-Function Network model weights after Training at Episode : 730
+Save Target Network model weights after Training at Episode : 730
+Save Q-Function Network model weights after Training at Episode : 735
+Save Target Network model weights after Training at Episode : 735
+Save Q-Function Network model weights after Training at Episode : 740
+Save Target Network model weights after Training at Episode : 740
+Save Q-Function Network model weights after Training at Episode : 745
+Save Target Network model weights after Training at Episode : 745
+Save Q-Function Network model weights after Training at Episode : 750
+Save Target Network model weights after Training at Episode : 750
+Current Epsilon while Training is  0.690625  Current Training Step is  750000
+Save Q-Function Network model weights after Training at Episode : 755
+Save Target Network model weights after Training at Episode : 755
+Save Q-Function Network model weights after Training at Episode : 760
+Save Target Network model weights after Training at Episode : 760
+Save Q-Function Network model weights after Training at Episode : 765
+Save Target Network model weights after Training at Episode : 765
+Save Q-Function Network model weights after Training at Episode : 770
+Save Target Network model weights after Training at Episode : 770
+Save Q-Function Network model weights after Training at Episode : 775
+Save Target Network model weights after Training at Episode : 775
+Save Q-Function Network model weights after Training at Episode : 780
+Save Target Network model weights after Training at Episode : 780
+Save Q-Function Network model weights after Training at Episode : 785
+Save Target Network model weights after Training at Episode : 785
+Save Q-Function Network model weights after Training at Episode : 790
+Save Target Network model weights after Training at Episode : 790
+Save Q-Function Network model weights after Training at Episode : 795
+Save Target Network model weights after Training at Episode : 795
+2019/11/16 01:21:09
+Current Training Episode:  800  / Total Training Episodes: 3000
+2019/11/16 01:21:16
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 01:21:24
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 800
+Save Target Network model weights after Training at Episode : 800
+Current Epsilon while Training is  0.6699999999999999  Current Training Step is  800000
+Save Q-Function Network model weights after Training at Episode : 805
+Save Target Network model weights after Training at Episode : 805
+Save Q-Function Network model weights after Training at Episode : 810
+Save Target Network model weights after Training at Episode : 810
+Save Q-Function Network model weights after Training at Episode : 815
+Save Target Network model weights after Training at Episode : 815
+Save Q-Function Network model weights after Training at Episode : 820
+Save Target Network model weights after Training at Episode : 820
+Save Q-Function Network model weights after Training at Episode : 825
+Save Target Network model weights after Training at Episode : 825
+Save Q-Function Network model weights after Training at Episode : 830
+Save Target Network model weights after Training at Episode : 830
+Save Q-Function Network model weights after Training at Episode : 835
+Save Target Network model weights after Training at Episode : 835
+Save Q-Function Network model weights after Training at Episode : 840
+Save Target Network model weights after Training at Episode : 840
+Save Q-Function Network model weights after Training at Episode : 845
+Save Target Network model weights after Training at Episode : 845
+Save Q-Function Network model weights after Training at Episode : 850
+Save Target Network model weights after Training at Episode : 850
+Current Epsilon while Training is  0.649375  Current Training Step is  850000
+Save Q-Function Network model weights after Training at Episode : 855
+Save Target Network model weights after Training at Episode : 855
+Save Q-Function Network model weights after Training at Episode : 860
+Save Target Network model weights after Training at Episode : 860
+Save Q-Function Network model weights after Training at Episode : 865
+Save Target Network model weights after Training at Episode : 865
+Save Q-Function Network model weights after Training at Episode : 870
+Save Target Network model weights after Training at Episode : 870
+Save Q-Function Network model weights after Training at Episode : 875
+Save Target Network model weights after Training at Episode : 875
+Save Q-Function Network model weights after Training at Episode : 880
+Save Target Network model weights after Training at Episode : 880
+Save Q-Function Network model weights after Training at Episode : 885
+Save Target Network model weights after Training at Episode : 885
+Save Q-Function Network model weights after Training at Episode : 890
+Save Target Network model weights after Training at Episode : 890
+Save Q-Function Network model weights after Training at Episode : 895
+Save Target Network model weights after Training at Episode : 895
+Save Q-Function Network model weights after Training at Episode : 900
+Save Target Network model weights after Training at Episode : 900
+Current Epsilon while Training is  0.6287499999999999  Current Training Step is  900000
+Save Q-Function Network model weights after Training at Episode : 905
+Save Target Network model weights after Training at Episode : 905
+Save Q-Function Network model weights after Training at Episode : 910
+Save Target Network model weights after Training at Episode : 910
+Save Q-Function Network model weights after Training at Episode : 915
+Save Target Network model weights after Training at Episode : 915
+Save Q-Function Network model weights after Training at Episode : 920
+Save Target Network model weights after Training at Episode : 920
+Save Q-Function Network model weights after Training at Episode : 925
+Save Target Network model weights after Training at Episode : 925
+Save Q-Function Network model weights after Training at Episode : 930
+Save Target Network model weights after Training at Episode : 930
+Save Q-Function Network model weights after Training at Episode : 935
+Save Target Network model weights after Training at Episode : 935
+Save Q-Function Network model weights after Training at Episode : 940
+Save Target Network model weights after Training at Episode : 940
+Save Q-Function Network model weights after Training at Episode : 945
+Save Target Network model weights after Training at Episode : 945
+Save Q-Function Network model weights after Training at Episode : 950
+Save Target Network model weights after Training at Episode : 950
+Current Epsilon while Training is  0.608125  Current Training Step is  950000
+Save Q-Function Network model weights after Training at Episode : 955
+Save Target Network model weights after Training at Episode : 955
+Save Q-Function Network model weights after Training at Episode : 960
+Save Target Network model weights after Training at Episode : 960
+Save Q-Function Network model weights after Training at Episode : 965
+Save Target Network model weights after Training at Episode : 965
+Save Q-Function Network model weights after Training at Episode : 970
+Save Target Network model weights after Training at Episode : 970
+Save Q-Function Network model weights after Training at Episode : 975
+Save Target Network model weights after Training at Episode : 975
+Save Q-Function Network model weights after Training at Episode : 980
+Save Target Network model weights after Training at Episode : 980
+Save Q-Function Network model weights after Training at Episode : 985
+Save Target Network model weights after Training at Episode : 985
+Save Q-Function Network model weights after Training at Episode : 990
+Save Target Network model weights after Training at Episode : 990
+Save Q-Function Network model weights after Training at Episode : 995
+Save Target Network model weights after Training at Episode : 995
+2019/11/16 02:21:14
+Current Training Episode:  1000  / Total Training Episodes: 3000
+2019/11/16 02:21:23
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 02:21:33
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 1000
+Save Target Network model weights after Training at Episode : 1000
+Current Epsilon while Training is  0.5874999999999999  Current Training Step is  1000000
+Save Q-Function Network model weights after Training at Episode : 1005
+Save Target Network model weights after Training at Episode : 1005
+Save Q-Function Network model weights after Training at Episode : 1010
+Save Target Network model weights after Training at Episode : 1010
+Save Q-Function Network model weights after Training at Episode : 1015
+Save Target Network model weights after Training at Episode : 1015
+Save Q-Function Network model weights after Training at Episode : 1020
+Save Target Network model weights after Training at Episode : 1020
+Save Q-Function Network model weights after Training at Episode : 1025
+Save Target Network model weights after Training at Episode : 1025
+Save Q-Function Network model weights after Training at Episode : 1030
+Save Target Network model weights after Training at Episode : 1030
+Save Q-Function Network model weights after Training at Episode : 1035
+Save Target Network model weights after Training at Episode : 1035
+Save Q-Function Network model weights after Training at Episode : 1040
+Save Target Network model weights after Training at Episode : 1040
+Save Q-Function Network model weights after Training at Episode : 1045
+Save Target Network model weights after Training at Episode : 1045
+Save Q-Function Network model weights after Training at Episode : 1050
+Save Target Network model weights after Training at Episode : 1050
+Current Epsilon while Training is  0.566875  Current Training Step is  1050000
+Save Q-Function Network model weights after Training at Episode : 1055
+Save Target Network model weights after Training at Episode : 1055
+Save Q-Function Network model weights after Training at Episode : 1060
+Save Target Network model weights after Training at Episode : 1060
+Save Q-Function Network model weights after Training at Episode : 1065
+Save Target Network model weights after Training at Episode : 1065
+Save Q-Function Network model weights after Training at Episode : 1070
+Save Target Network model weights after Training at Episode : 1070
+Save Q-Function Network model weights after Training at Episode : 1075
+Save Target Network model weights after Training at Episode : 1075
+Save Q-Function Network model weights after Training at Episode : 1080
+Save Target Network model weights after Training at Episode : 1080
+Save Q-Function Network model weights after Training at Episode : 1085
+Save Target Network model weights after Training at Episode : 1085
+Save Q-Function Network model weights after Training at Episode : 1090
+Save Target Network model weights after Training at Episode : 1090
+Save Q-Function Network model weights after Training at Episode : 1095
+Save Target Network model weights after Training at Episode : 1095
+Save Q-Function Network model weights after Training at Episode : 1100
+Save Target Network model weights after Training at Episode : 1100
+Current Epsilon while Training is  0.5462499999999999  Current Training Step is  1100000
+Save Q-Function Network model weights after Training at Episode : 1105
+Save Target Network model weights after Training at Episode : 1105
+Save Q-Function Network model weights after Training at Episode : 1110
+Save Target Network model weights after Training at Episode : 1110
+Save Q-Function Network model weights after Training at Episode : 1115
+Save Target Network model weights after Training at Episode : 1115
+Save Q-Function Network model weights after Training at Episode : 1120
+Save Target Network model weights after Training at Episode : 1120
+Save Q-Function Network model weights after Training at Episode : 1125
+Save Target Network model weights after Training at Episode : 1125
+Save Q-Function Network model weights after Training at Episode : 1130
+Save Target Network model weights after Training at Episode : 1130
+Save Q-Function Network model weights after Training at Episode : 1135
+Save Target Network model weights after Training at Episode : 1135
+Save Q-Function Network model weights after Training at Episode : 1140
+Save Target Network model weights after Training at Episode : 1140
+Save Q-Function Network model weights after Training at Episode : 1145
+Save Target Network model weights after Training at Episode : 1145
+Save Q-Function Network model weights after Training at Episode : 1150
+Save Target Network model weights after Training at Episode : 1150
+Current Epsilon while Training is  0.525625  Current Training Step is  1150000
+Save Q-Function Network model weights after Training at Episode : 1155
+Save Target Network model weights after Training at Episode : 1155
+Save Q-Function Network model weights after Training at Episode : 1160
+Save Target Network model weights after Training at Episode : 1160
+Save Q-Function Network model weights after Training at Episode : 1165
+Save Target Network model weights after Training at Episode : 1165
+Save Q-Function Network model weights after Training at Episode : 1170
+Save Target Network model weights after Training at Episode : 1170
+Save Q-Function Network model weights after Training at Episode : 1175
+Save Target Network model weights after Training at Episode : 1175
+Save Q-Function Network model weights after Training at Episode : 1180
+Save Target Network model weights after Training at Episode : 1180
+Save Q-Function Network model weights after Training at Episode : 1185
+Save Target Network model weights after Training at Episode : 1185
+Save Q-Function Network model weights after Training at Episode : 1190
+Save Target Network model weights after Training at Episode : 1190
+Save Q-Function Network model weights after Training at Episode : 1195
+Save Target Network model weights after Training at Episode : 1195
+2019/11/16 03:23:45
+Current Training Episode:  1200  / Total Training Episodes: 3000
+2019/11/16 03:23:53
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 03:24:01
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 1200
+Save Target Network model weights after Training at Episode : 1200
+Current Epsilon while Training is  0.5049999999999999  Current Training Step is  1200000
+Save Q-Function Network model weights after Training at Episode : 1205
+Save Target Network model weights after Training at Episode : 1205
+Save Q-Function Network model weights after Training at Episode : 1210
+Save Target Network model weights after Training at Episode : 1210
+Save Q-Function Network model weights after Training at Episode : 1215
+Save Target Network model weights after Training at Episode : 1215
+Save Q-Function Network model weights after Training at Episode : 1220
+Save Target Network model weights after Training at Episode : 1220
+Save Q-Function Network model weights after Training at Episode : 1225
+Save Target Network model weights after Training at Episode : 1225
+Save Q-Function Network model weights after Training at Episode : 1230
+Save Target Network model weights after Training at Episode : 1230
+Save Q-Function Network model weights after Training at Episode : 1235
+Save Target Network model weights after Training at Episode : 1235
+Save Q-Function Network model weights after Training at Episode : 1240
+Save Target Network model weights after Training at Episode : 1240
+Save Q-Function Network model weights after Training at Episode : 1245
+Save Target Network model weights after Training at Episode : 1245
+Save Q-Function Network model weights after Training at Episode : 1250
+Save Target Network model weights after Training at Episode : 1250
+Current Epsilon while Training is  0.484375  Current Training Step is  1250000
+Save Q-Function Network model weights after Training at Episode : 1255
+Save Target Network model weights after Training at Episode : 1255
+Save Q-Function Network model weights after Training at Episode : 1260
+Save Target Network model weights after Training at Episode : 1260
+Save Q-Function Network model weights after Training at Episode : 1265
+Save Target Network model weights after Training at Episode : 1265
+Save Q-Function Network model weights after Training at Episode : 1270
+Save Target Network model weights after Training at Episode : 1270
+Save Q-Function Network model weights after Training at Episode : 1275
+Save Target Network model weights after Training at Episode : 1275
+Save Q-Function Network model weights after Training at Episode : 1280
+Save Target Network model weights after Training at Episode : 1280
+Save Q-Function Network model weights after Training at Episode : 1285
+Save Target Network model weights after Training at Episode : 1285
+Save Q-Function Network model weights after Training at Episode : 1290
+Save Target Network model weights after Training at Episode : 1290
+Save Q-Function Network model weights after Training at Episode : 1295
+Save Target Network model weights after Training at Episode : 1295
+Save Q-Function Network model weights after Training at Episode : 1300
+Save Target Network model weights after Training at Episode : 1300
+Current Epsilon while Training is  0.46375  Current Training Step is  1300000
+Save Q-Function Network model weights after Training at Episode : 1305
+Save Target Network model weights after Training at Episode : 1305
+Save Q-Function Network model weights after Training at Episode : 1310
+Save Target Network model weights after Training at Episode : 1310
+Save Q-Function Network model weights after Training at Episode : 1315
+Save Target Network model weights after Training at Episode : 1315
+Save Q-Function Network model weights after Training at Episode : 1320
+Save Target Network model weights after Training at Episode : 1320
+Save Q-Function Network model weights after Training at Episode : 1325
+Save Target Network model weights after Training at Episode : 1325
+Save Q-Function Network model weights after Training at Episode : 1330
+Save Target Network model weights after Training at Episode : 1330
+Save Q-Function Network model weights after Training at Episode : 1335
+Save Target Network model weights after Training at Episode : 1335
+Save Q-Function Network model weights after Training at Episode : 1340
+Save Target Network model weights after Training at Episode : 1340
+Save Q-Function Network model weights after Training at Episode : 1345
+Save Target Network model weights after Training at Episode : 1345
+Save Q-Function Network model weights after Training at Episode : 1350
+Save Target Network model weights after Training at Episode : 1350
+Current Epsilon while Training is  0.443125  Current Training Step is  1350000
+Save Q-Function Network model weights after Training at Episode : 1355
+Save Target Network model weights after Training at Episode : 1355
+Save Q-Function Network model weights after Training at Episode : 1360
+Save Target Network model weights after Training at Episode : 1360
+Save Q-Function Network model weights after Training at Episode : 1365
+Save Target Network model weights after Training at Episode : 1365
+Save Q-Function Network model weights after Training at Episode : 1370
+Save Target Network model weights after Training at Episode : 1370
+Save Q-Function Network model weights after Training at Episode : 1375
+Save Target Network model weights after Training at Episode : 1375
+Save Q-Function Network model weights after Training at Episode : 1380
+Save Target Network model weights after Training at Episode : 1380
+Save Q-Function Network model weights after Training at Episode : 1385
+Save Target Network model weights after Training at Episode : 1385
+Save Q-Function Network model weights after Training at Episode : 1390
+Save Target Network model weights after Training at Episode : 1390
+Save Q-Function Network model weights after Training at Episode : 1395
+Save Target Network model weights after Training at Episode : 1395
+2019/11/16 04:20:39
+Current Training Episode:  1400  / Total Training Episodes: 3000
+2019/11/16 04:20:47
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 04:20:55
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 1400
+Save Target Network model weights after Training at Episode : 1400
+Current Epsilon while Training is  0.4225  Current Training Step is  1400000
+Save Q-Function Network model weights after Training at Episode : 1405
+Save Target Network model weights after Training at Episode : 1405
+Save Q-Function Network model weights after Training at Episode : 1410
+Save Target Network model weights after Training at Episode : 1410
+Save Q-Function Network model weights after Training at Episode : 1415
+Save Target Network model weights after Training at Episode : 1415
+Save Q-Function Network model weights after Training at Episode : 1420
+Save Target Network model weights after Training at Episode : 1420
+Save Q-Function Network model weights after Training at Episode : 1425
+Save Target Network model weights after Training at Episode : 1425
+Save Q-Function Network model weights after Training at Episode : 1430
+Save Target Network model weights after Training at Episode : 1430
+Save Q-Function Network model weights after Training at Episode : 1435
+Save Target Network model weights after Training at Episode : 1435
+Save Q-Function Network model weights after Training at Episode : 1440
+Save Target Network model weights after Training at Episode : 1440
+Save Q-Function Network model weights after Training at Episode : 1445
+Save Target Network model weights after Training at Episode : 1445
+Save Q-Function Network model weights after Training at Episode : 1450
+Save Target Network model weights after Training at Episode : 1450
+Current Epsilon while Training is  0.401875  Current Training Step is  1450000
+Save Q-Function Network model weights after Training at Episode : 1455
+Save Target Network model weights after Training at Episode : 1455
+Save Q-Function Network model weights after Training at Episode : 1460
+Save Target Network model weights after Training at Episode : 1460
+Save Q-Function Network model weights after Training at Episode : 1465
+Save Target Network model weights after Training at Episode : 1465
+Save Q-Function Network model weights after Training at Episode : 1470
+Save Target Network model weights after Training at Episode : 1470
+Save Q-Function Network model weights after Training at Episode : 1475
+Save Target Network model weights after Training at Episode : 1475
+Save Q-Function Network model weights after Training at Episode : 1480
+Save Target Network model weights after Training at Episode : 1480
+Save Q-Function Network model weights after Training at Episode : 1485
+Save Target Network model weights after Training at Episode : 1485
+Save Q-Function Network model weights after Training at Episode : 1490
+Save Target Network model weights after Training at Episode : 1490
+Save Q-Function Network model weights after Training at Episode : 1495
+Save Target Network model weights after Training at Episode : 1495
+Save Q-Function Network model weights after Training at Episode : 1500
+Save Target Network model weights after Training at Episode : 1500
+Current Epsilon while Training is  0.38125  Current Training Step is  1500000
+Save Q-Function Network model weights after Training at Episode : 1505
+Save Target Network model weights after Training at Episode : 1505
+Save Q-Function Network model weights after Training at Episode : 1510
+Save Target Network model weights after Training at Episode : 1510
+Save Q-Function Network model weights after Training at Episode : 1515
+Save Target Network model weights after Training at Episode : 1515
+Save Q-Function Network model weights after Training at Episode : 1520
+Save Target Network model weights after Training at Episode : 1520
+Save Q-Function Network model weights after Training at Episode : 1525
+Save Target Network model weights after Training at Episode : 1525
+Save Q-Function Network model weights after Training at Episode : 1530
+Save Target Network model weights after Training at Episode : 1530
+Save Q-Function Network model weights after Training at Episode : 1535
+Save Target Network model weights after Training at Episode : 1535
+Save Q-Function Network model weights after Training at Episode : 1540
+Save Target Network model weights after Training at Episode : 1540
+Save Q-Function Network model weights after Training at Episode : 1545
+Save Target Network model weights after Training at Episode : 1545
+Save Q-Function Network model weights after Training at Episode : 1550
+Save Target Network model weights after Training at Episode : 1550
+Current Epsilon while Training is  0.360625  Current Training Step is  1550000
+Save Q-Function Network model weights after Training at Episode : 1555
+Save Target Network model weights after Training at Episode : 1555
+Save Q-Function Network model weights after Training at Episode : 1560
+Save Target Network model weights after Training at Episode : 1560
+Save Q-Function Network model weights after Training at Episode : 1565
+Save Target Network model weights after Training at Episode : 1565
+Save Q-Function Network model weights after Training at Episode : 1570
+Save Target Network model weights after Training at Episode : 1570
+Save Q-Function Network model weights after Training at Episode : 1575
+Save Target Network model weights after Training at Episode : 1575
+Save Q-Function Network model weights after Training at Episode : 1580
+Save Target Network model weights after Training at Episode : 1580
+Save Q-Function Network model weights after Training at Episode : 1585
+Save Target Network model weights after Training at Episode : 1585
+Save Q-Function Network model weights after Training at Episode : 1590
+Save Target Network model weights after Training at Episode : 1590
+Save Q-Function Network model weights after Training at Episode : 1595
+Save Target Network model weights after Training at Episode : 1595
+2019/11/16 05:18:37
+Current Training Episode:  1600  / Total Training Episodes: 3000
+2019/11/16 05:18:45
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 05:18:54
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 1600
+Save Target Network model weights after Training at Episode : 1600
+Current Epsilon while Training is  0.33999999999999997  Current Training Step is  1600000
+Save Q-Function Network model weights after Training at Episode : 1605
+Save Target Network model weights after Training at Episode : 1605
+Save Q-Function Network model weights after Training at Episode : 1610
+Save Target Network model weights after Training at Episode : 1610
+Save Q-Function Network model weights after Training at Episode : 1615
+Save Target Network model weights after Training at Episode : 1615
+Save Q-Function Network model weights after Training at Episode : 1620
+Save Target Network model weights after Training at Episode : 1620
+Save Q-Function Network model weights after Training at Episode : 1625
+Save Target Network model weights after Training at Episode : 1625
+Save Q-Function Network model weights after Training at Episode : 1630
+Save Target Network model weights after Training at Episode : 1630
+Save Q-Function Network model weights after Training at Episode : 1635
+Save Target Network model weights after Training at Episode : 1635
+Save Q-Function Network model weights after Training at Episode : 1640
+Save Target Network model weights after Training at Episode : 1640
+Save Q-Function Network model weights after Training at Episode : 1645
+Save Target Network model weights after Training at Episode : 1645
+Save Q-Function Network model weights after Training at Episode : 1650
+Save Target Network model weights after Training at Episode : 1650
+Current Epsilon while Training is  0.31937499999999996  Current Training Step is  1650000
+Save Q-Function Network model weights after Training at Episode : 1655
+Save Target Network model weights after Training at Episode : 1655
+Save Q-Function Network model weights after Training at Episode : 1660
+Save Target Network model weights after Training at Episode : 1660
+Save Q-Function Network model weights after Training at Episode : 1665
+Save Target Network model weights after Training at Episode : 1665
+Save Q-Function Network model weights after Training at Episode : 1670
+Save Target Network model weights after Training at Episode : 1670
+Save Q-Function Network model weights after Training at Episode : 1675
+Save Target Network model weights after Training at Episode : 1675
+Save Q-Function Network model weights after Training at Episode : 1680
+Save Target Network model weights after Training at Episode : 1680
+Save Q-Function Network model weights after Training at Episode : 1685
+Save Target Network model weights after Training at Episode : 1685
+Save Q-Function Network model weights after Training at Episode : 1690
+Save Target Network model weights after Training at Episode : 1690
+Save Q-Function Network model weights after Training at Episode : 1695
+Save Target Network model weights after Training at Episode : 1695
+Save Q-Function Network model weights after Training at Episode : 1700
+Save Target Network model weights after Training at Episode : 1700
+Current Epsilon while Training is  0.29874999999999996  Current Training Step is  1700000
+Save Q-Function Network model weights after Training at Episode : 1705
+Save Target Network model weights after Training at Episode : 1705
+Save Q-Function Network model weights after Training at Episode : 1710
+Save Target Network model weights after Training at Episode : 1710
+Save Q-Function Network model weights after Training at Episode : 1715
+Save Target Network model weights after Training at Episode : 1715
+Save Q-Function Network model weights after Training at Episode : 1720
+Save Target Network model weights after Training at Episode : 1720
+Save Q-Function Network model weights after Training at Episode : 1725
+Save Target Network model weights after Training at Episode : 1725
+Save Q-Function Network model weights after Training at Episode : 1730
+Save Target Network model weights after Training at Episode : 1730
+Save Q-Function Network model weights after Training at Episode : 1735
+Save Target Network model weights after Training at Episode : 1735
+Save Q-Function Network model weights after Training at Episode : 1740
+Save Target Network model weights after Training at Episode : 1740
+Save Q-Function Network model weights after Training at Episode : 1745
+Save Target Network model weights after Training at Episode : 1745
+Save Q-Function Network model weights after Training at Episode : 1750
+Save Target Network model weights after Training at Episode : 1750
+Current Epsilon while Training is  0.27812499999999996  Current Training Step is  1750000
+Save Q-Function Network model weights after Training at Episode : 1755
+Save Target Network model weights after Training at Episode : 1755
+Save Q-Function Network model weights after Training at Episode : 1760
+Save Target Network model weights after Training at Episode : 1760
+Save Q-Function Network model weights after Training at Episode : 1765
+Save Target Network model weights after Training at Episode : 1765
+Save Q-Function Network model weights after Training at Episode : 1770
+Save Target Network model weights after Training at Episode : 1770
+Save Q-Function Network model weights after Training at Episode : 1775
+Save Target Network model weights after Training at Episode : 1775
+Save Q-Function Network model weights after Training at Episode : 1780
+Save Target Network model weights after Training at Episode : 1780
+Save Q-Function Network model weights after Training at Episode : 1785
+Save Target Network model weights after Training at Episode : 1785
+Save Q-Function Network model weights after Training at Episode : 1790
+Save Target Network model weights after Training at Episode : 1790
+Save Q-Function Network model weights after Training at Episode : 1795
+Save Target Network model weights after Training at Episode : 1795
+2019/11/16 06:16:56
+Current Training Episode:  1800  / Total Training Episodes: 3000
+2019/11/16 06:17:04
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 06:17:13
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 1800
+Save Target Network model weights after Training at Episode : 1800
+Current Epsilon while Training is  0.25749999999999995  Current Training Step is  1800000
+Save Q-Function Network model weights after Training at Episode : 1805
+Save Target Network model weights after Training at Episode : 1805
+Save Q-Function Network model weights after Training at Episode : 1810
+Save Target Network model weights after Training at Episode : 1810
+Save Q-Function Network model weights after Training at Episode : 1815
+Save Target Network model weights after Training at Episode : 1815
+Save Q-Function Network model weights after Training at Episode : 1820
+Save Target Network model weights after Training at Episode : 1820
+Save Q-Function Network model weights after Training at Episode : 1825
+Save Target Network model weights after Training at Episode : 1825
+Save Q-Function Network model weights after Training at Episode : 1830
+Save Target Network model weights after Training at Episode : 1830
+Save Q-Function Network model weights after Training at Episode : 1835
+Save Target Network model weights after Training at Episode : 1835
+Save Q-Function Network model weights after Training at Episode : 1840
+Save Target Network model weights after Training at Episode : 1840
+Save Q-Function Network model weights after Training at Episode : 1845
+Save Target Network model weights after Training at Episode : 1845
+Save Q-Function Network model weights after Training at Episode : 1850
+Save Target Network model weights after Training at Episode : 1850
+Current Epsilon while Training is  0.23687499999999995  Current Training Step is  1850000
+Save Q-Function Network model weights after Training at Episode : 1855
+Save Target Network model weights after Training at Episode : 1855
+Save Q-Function Network model weights after Training at Episode : 1860
+Save Target Network model weights after Training at Episode : 1860
+Save Q-Function Network model weights after Training at Episode : 1865
+Save Target Network model weights after Training at Episode : 1865
+Save Q-Function Network model weights after Training at Episode : 1870
+Save Target Network model weights after Training at Episode : 1870
+Save Q-Function Network model weights after Training at Episode : 1875
+Save Target Network model weights after Training at Episode : 1875
+Save Q-Function Network model weights after Training at Episode : 1880
+Save Target Network model weights after Training at Episode : 1880
+Save Q-Function Network model weights after Training at Episode : 1885
+Save Target Network model weights after Training at Episode : 1885
+Save Q-Function Network model weights after Training at Episode : 1890
+Save Target Network model weights after Training at Episode : 1890
+Save Q-Function Network model weights after Training at Episode : 1895
+Save Target Network model weights after Training at Episode : 1895
+Save Q-Function Network model weights after Training at Episode : 1900
+Save Target Network model weights after Training at Episode : 1900
+Current Epsilon while Training is  0.21624999999999994  Current Training Step is  1900000
+Save Q-Function Network model weights after Training at Episode : 1905
+Save Target Network model weights after Training at Episode : 1905
+Save Q-Function Network model weights after Training at Episode : 1910
+Save Target Network model weights after Training at Episode : 1910
+Save Q-Function Network model weights after Training at Episode : 1915
+Save Target Network model weights after Training at Episode : 1915
+Save Q-Function Network model weights after Training at Episode : 1920
+Save Target Network model weights after Training at Episode : 1920
+Save Q-Function Network model weights after Training at Episode : 1925
+Save Target Network model weights after Training at Episode : 1925
+Save Q-Function Network model weights after Training at Episode : 1930
+Save Target Network model weights after Training at Episode : 1930
+Save Q-Function Network model weights after Training at Episode : 1935
+Save Target Network model weights after Training at Episode : 1935
+Save Q-Function Network model weights after Training at Episode : 1940
+Save Target Network model weights after Training at Episode : 1940
+Save Q-Function Network model weights after Training at Episode : 1945
+Save Target Network model weights after Training at Episode : 1945
+Save Q-Function Network model weights after Training at Episode : 1950
+Save Target Network model weights after Training at Episode : 1950
+Current Epsilon while Training is  0.19562499999999994  Current Training Step is  1950000
+Save Q-Function Network model weights after Training at Episode : 1955
+Save Target Network model weights after Training at Episode : 1955
+Save Q-Function Network model weights after Training at Episode : 1960
+Save Target Network model weights after Training at Episode : 1960
+Save Q-Function Network model weights after Training at Episode : 1965
+Save Target Network model weights after Training at Episode : 1965
+Save Q-Function Network model weights after Training at Episode : 1970
+Save Target Network model weights after Training at Episode : 1970
+Save Q-Function Network model weights after Training at Episode : 1975
+Save Target Network model weights after Training at Episode : 1975
+Save Q-Function Network model weights after Training at Episode : 1980
+Save Target Network model weights after Training at Episode : 1980
+Save Q-Function Network model weights after Training at Episode : 1985
+Save Target Network model weights after Training at Episode : 1985
+Save Q-Function Network model weights after Training at Episode : 1990
+Save Target Network model weights after Training at Episode : 1990
+Save Q-Function Network model weights after Training at Episode : 1995
+Save Target Network model weights after Training at Episode : 1995
+2019/11/16 07:16:08
+Current Training Episode:  2000  / Total Training Episodes: 3000
+2019/11/16 07:16:16
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 07:16:24
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 2000
+Save Target Network model weights after Training at Episode : 2000
+Current Epsilon while Training is  0.17499999999999993  Current Training Step is  2000000
+Save Q-Function Network model weights after Training at Episode : 2005
+Save Target Network model weights after Training at Episode : 2005
+Save Q-Function Network model weights after Training at Episode : 2010
+Save Target Network model weights after Training at Episode : 2010
+Save Q-Function Network model weights after Training at Episode : 2015
+Save Target Network model weights after Training at Episode : 2015
+Save Q-Function Network model weights after Training at Episode : 2020
+Save Target Network model weights after Training at Episode : 2020
+Save Q-Function Network model weights after Training at Episode : 2025
+Save Target Network model weights after Training at Episode : 2025
+Save Q-Function Network model weights after Training at Episode : 2030
+Save Target Network model weights after Training at Episode : 2030
+Save Q-Function Network model weights after Training at Episode : 2035
+Save Target Network model weights after Training at Episode : 2035
+Save Q-Function Network model weights after Training at Episode : 2040
+Save Target Network model weights after Training at Episode : 2040
+Save Q-Function Network model weights after Training at Episode : 2045
+Save Target Network model weights after Training at Episode : 2045
+Save Q-Function Network model weights after Training at Episode : 2050
+Save Target Network model weights after Training at Episode : 2050
+Current Epsilon while Training is  0.15437499999999993  Current Training Step is  2050000
+Save Q-Function Network model weights after Training at Episode : 2055
+Save Target Network model weights after Training at Episode : 2055
+Save Q-Function Network model weights after Training at Episode : 2060
+Save Target Network model weights after Training at Episode : 2060
+Save Q-Function Network model weights after Training at Episode : 2065
+Save Target Network model weights after Training at Episode : 2065
+Save Q-Function Network model weights after Training at Episode : 2070
+Save Target Network model weights after Training at Episode : 2070
+Save Q-Function Network model weights after Training at Episode : 2075
+Save Target Network model weights after Training at Episode : 2075
+Save Q-Function Network model weights after Training at Episode : 2080
+Save Target Network model weights after Training at Episode : 2080
+Save Q-Function Network model weights after Training at Episode : 2085
+Save Target Network model weights after Training at Episode : 2085
+Save Q-Function Network model weights after Training at Episode : 2090
+Save Target Network model weights after Training at Episode : 2090
+Save Q-Function Network model weights after Training at Episode : 2095
+Save Target Network model weights after Training at Episode : 2095
+Save Q-Function Network model weights after Training at Episode : 2100
+Save Target Network model weights after Training at Episode : 2100
+Current Epsilon while Training is  0.13374999999999992  Current Training Step is  2100000
+Save Q-Function Network model weights after Training at Episode : 2105
+Save Target Network model weights after Training at Episode : 2105
+Save Q-Function Network model weights after Training at Episode : 2110
+Save Target Network model weights after Training at Episode : 2110
+Save Q-Function Network model weights after Training at Episode : 2115
+Save Target Network model weights after Training at Episode : 2115
+Save Q-Function Network model weights after Training at Episode : 2120
+Save Target Network model weights after Training at Episode : 2120
+Save Q-Function Network model weights after Training at Episode : 2125
+Save Target Network model weights after Training at Episode : 2125
+Save Q-Function Network model weights after Training at Episode : 2130
+Save Target Network model weights after Training at Episode : 2130
+Save Q-Function Network model weights after Training at Episode : 2135
+Save Target Network model weights after Training at Episode : 2135
+Save Q-Function Network model weights after Training at Episode : 2140
+Save Target Network model weights after Training at Episode : 2140
+Save Q-Function Network model weights after Training at Episode : 2145
+Save Target Network model weights after Training at Episode : 2145
+Save Q-Function Network model weights after Training at Episode : 2150
+Save Target Network model weights after Training at Episode : 2150
+Current Epsilon while Training is  0.11312499999999992  Current Training Step is  2150000
+Save Q-Function Network model weights after Training at Episode : 2155
+Save Target Network model weights after Training at Episode : 2155
+Save Q-Function Network model weights after Training at Episode : 2160
+Save Target Network model weights after Training at Episode : 2160
+Save Q-Function Network model weights after Training at Episode : 2165
+Save Target Network model weights after Training at Episode : 2165
+Save Q-Function Network model weights after Training at Episode : 2170
+Save Target Network model weights after Training at Episode : 2170
+Save Q-Function Network model weights after Training at Episode : 2175
+Save Target Network model weights after Training at Episode : 2175
+Save Q-Function Network model weights after Training at Episode : 2180
+Save Target Network model weights after Training at Episode : 2180
+Save Q-Function Network model weights after Training at Episode : 2185
+Save Target Network model weights after Training at Episode : 2185
+Save Q-Function Network model weights after Training at Episode : 2190
+Save Target Network model weights after Training at Episode : 2190
+Save Q-Function Network model weights after Training at Episode : 2195
+Save Target Network model weights after Training at Episode : 2195
+2019/11/16 08:15:53
+Current Training Episode:  2200  / Total Training Episodes: 3000
+2019/11/16 08:16:01
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 08:16:10
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 2200
+Save Target Network model weights after Training at Episode : 2200
+Current Epsilon while Training is  0.09249999999999992  Current Training Step is  2200000
+Save Q-Function Network model weights after Training at Episode : 2205
+Save Target Network model weights after Training at Episode : 2205
+Save Q-Function Network model weights after Training at Episode : 2210
+Save Target Network model weights after Training at Episode : 2210
+Save Q-Function Network model weights after Training at Episode : 2215
+Save Target Network model weights after Training at Episode : 2215
+Save Q-Function Network model weights after Training at Episode : 2220
+Save Target Network model weights after Training at Episode : 2220
+Save Q-Function Network model weights after Training at Episode : 2225
+Save Target Network model weights after Training at Episode : 2225
+Save Q-Function Network model weights after Training at Episode : 2230
+Save Target Network model weights after Training at Episode : 2230
+Save Q-Function Network model weights after Training at Episode : 2235
+Save Target Network model weights after Training at Episode : 2235
+Save Q-Function Network model weights after Training at Episode : 2240
+Save Target Network model weights after Training at Episode : 2240
+Save Q-Function Network model weights after Training at Episode : 2245
+Save Target Network model weights after Training at Episode : 2245
+Save Q-Function Network model weights after Training at Episode : 2250
+Save Target Network model weights after Training at Episode : 2250
+Current Epsilon while Training is  0.07187499999999991  Current Training Step is  2250000
+Save Q-Function Network model weights after Training at Episode : 2255
+Save Target Network model weights after Training at Episode : 2255
+Save Q-Function Network model weights after Training at Episode : 2260
+Save Target Network model weights after Training at Episode : 2260
+Save Q-Function Network model weights after Training at Episode : 2265
+Save Target Network model weights after Training at Episode : 2265
+Save Q-Function Network model weights after Training at Episode : 2270
+Save Target Network model weights after Training at Episode : 2270
+Save Q-Function Network model weights after Training at Episode : 2275
+Save Target Network model weights after Training at Episode : 2275
+Save Q-Function Network model weights after Training at Episode : 2280
+Save Target Network model weights after Training at Episode : 2280
+Save Q-Function Network model weights after Training at Episode : 2285
+Save Target Network model weights after Training at Episode : 2285
+Save Q-Function Network model weights after Training at Episode : 2290
+Save Target Network model weights after Training at Episode : 2290
+Save Q-Function Network model weights after Training at Episode : 2295
+Save Target Network model weights after Training at Episode : 2295
+Save Q-Function Network model weights after Training at Episode : 2300
+Save Target Network model weights after Training at Episode : 2300
+Current Epsilon while Training is  0.05124999999999991  Current Training Step is  2300000
+Save Q-Function Network model weights after Training at Episode : 2305
+Save Target Network model weights after Training at Episode : 2305
+Save Q-Function Network model weights after Training at Episode : 2310
+Save Target Network model weights after Training at Episode : 2310
+Save Q-Function Network model weights after Training at Episode : 2315
+Save Target Network model weights after Training at Episode : 2315
+Save Q-Function Network model weights after Training at Episode : 2320
+Save Target Network model weights after Training at Episode : 2320
+Save Q-Function Network model weights after Training at Episode : 2325
+Save Target Network model weights after Training at Episode : 2325
+Save Q-Function Network model weights after Training at Episode : 2330
+Save Target Network model weights after Training at Episode : 2330
+Save Q-Function Network model weights after Training at Episode : 2335
+Save Target Network model weights after Training at Episode : 2335
+Save Q-Function Network model weights after Training at Episode : 2340
+Save Target Network model weights after Training at Episode : 2340
+Save Q-Function Network model weights after Training at Episode : 2345
+Save Target Network model weights after Training at Episode : 2345
+Save Q-Function Network model weights after Training at Episode : 2350
+Save Target Network model weights after Training at Episode : 2350
+Current Epsilon while Training is  0.030624999999999902  Current Training Step is  2350000
+Save Q-Function Network model weights after Training at Episode : 2355
+Save Target Network model weights after Training at Episode : 2355
+Save Q-Function Network model weights after Training at Episode : 2360
+Save Target Network model weights after Training at Episode : 2360
+Save Q-Function Network model weights after Training at Episode : 2365
+Save Target Network model weights after Training at Episode : 2365
+Save Q-Function Network model weights after Training at Episode : 2370
+Save Target Network model weights after Training at Episode : 2370
+Save Q-Function Network model weights after Training at Episode : 2375
+Save Target Network model weights after Training at Episode : 2375
+Save Q-Function Network model weights after Training at Episode : 2380
+Save Target Network model weights after Training at Episode : 2380
+Save Q-Function Network model weights after Training at Episode : 2385
+Save Target Network model weights after Training at Episode : 2385
+Save Q-Function Network model weights after Training at Episode : 2390
+Save Target Network model weights after Training at Episode : 2390
+Save Q-Function Network model weights after Training at Episode : 2395
+Save Target Network model weights after Training at Episode : 2395
+2019/11/16 09:16:20
+Current Training Episode:  2400  / Total Training Episodes: 3000
+2019/11/16 09:16:28
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 09:16:37
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 2400
+Save Target Network model weights after Training at Episode : 2400
+Current Epsilon while Training is  0.01  Current Training Step is  2400000
+Save Q-Function Network model weights after Training at Episode : 2405
+Save Target Network model weights after Training at Episode : 2405
+Save Q-Function Network model weights after Training at Episode : 2410
+Save Target Network model weights after Training at Episode : 2410
+Save Q-Function Network model weights after Training at Episode : 2415
+Save Target Network model weights after Training at Episode : 2415
+Save Q-Function Network model weights after Training at Episode : 2420
+Save Target Network model weights after Training at Episode : 2420
+Save Q-Function Network model weights after Training at Episode : 2425
+Save Target Network model weights after Training at Episode : 2425
+Save Q-Function Network model weights after Training at Episode : 2430
+Save Target Network model weights after Training at Episode : 2430
+Save Q-Function Network model weights after Training at Episode : 2435
+Save Target Network model weights after Training at Episode : 2435
+Save Q-Function Network model weights after Training at Episode : 2440
+Save Target Network model weights after Training at Episode : 2440
+Save Q-Function Network model weights after Training at Episode : 2445
+Save Target Network model weights after Training at Episode : 2445
+Save Q-Function Network model weights after Training at Episode : 2450
+Save Target Network model weights after Training at Episode : 2450
+Current Epsilon while Training is  0.01  Current Training Step is  2450000
+Save Q-Function Network model weights after Training at Episode : 2455
+Save Target Network model weights after Training at Episode : 2455
+Save Q-Function Network model weights after Training at Episode : 2460
+Save Target Network model weights after Training at Episode : 2460
+Save Q-Function Network model weights after Training at Episode : 2465
+Save Target Network model weights after Training at Episode : 2465
+Save Q-Function Network model weights after Training at Episode : 2470
+Save Target Network model weights after Training at Episode : 2470
+Save Q-Function Network model weights after Training at Episode : 2475
+Save Target Network model weights after Training at Episode : 2475
+Save Q-Function Network model weights after Training at Episode : 2480
+Save Target Network model weights after Training at Episode : 2480
+Save Q-Function Network model weights after Training at Episode : 2485
+Save Target Network model weights after Training at Episode : 2485
+Save Q-Function Network model weights after Training at Episode : 2490
+Save Target Network model weights after Training at Episode : 2490
+Save Q-Function Network model weights after Training at Episode : 2495
+Save Target Network model weights after Training at Episode : 2495
+Save Q-Function Network model weights after Training at Episode : 2500
+Save Target Network model weights after Training at Episode : 2500
+Current Epsilon while Training is  0.01  Current Training Step is  2500000
+Save Q-Function Network model weights after Training at Episode : 2505
+Save Target Network model weights after Training at Episode : 2505
+Save Q-Function Network model weights after Training at Episode : 2510
+Save Target Network model weights after Training at Episode : 2510
+Save Q-Function Network model weights after Training at Episode : 2515
+Save Target Network model weights after Training at Episode : 2515
+Save Q-Function Network model weights after Training at Episode : 2520
+Save Target Network model weights after Training at Episode : 2520
+Save Q-Function Network model weights after Training at Episode : 2525
+Save Target Network model weights after Training at Episode : 2525
+Save Q-Function Network model weights after Training at Episode : 2530
+Save Target Network model weights after Training at Episode : 2530
+Save Q-Function Network model weights after Training at Episode : 2535
+Save Target Network model weights after Training at Episode : 2535
+Save Q-Function Network model weights after Training at Episode : 2540
+Save Target Network model weights after Training at Episode : 2540
+Save Q-Function Network model weights after Training at Episode : 2545
+Save Target Network model weights after Training at Episode : 2545
+Save Q-Function Network model weights after Training at Episode : 2550
+Save Target Network model weights after Training at Episode : 2550
+Current Epsilon while Training is  0.01  Current Training Step is  2550000
+Save Q-Function Network model weights after Training at Episode : 2555
+Save Target Network model weights after Training at Episode : 2555
+Save Q-Function Network model weights after Training at Episode : 2560
+Save Target Network model weights after Training at Episode : 2560
+Save Q-Function Network model weights after Training at Episode : 2565
+Save Target Network model weights after Training at Episode : 2565
+Save Q-Function Network model weights after Training at Episode : 2570
+Save Target Network model weights after Training at Episode : 2570
+Save Q-Function Network model weights after Training at Episode : 2575
+Save Target Network model weights after Training at Episode : 2575
+Save Q-Function Network model weights after Training at Episode : 2580
+Save Target Network model weights after Training at Episode : 2580
+Save Q-Function Network model weights after Training at Episode : 2585
+Save Target Network model weights after Training at Episode : 2585
+Save Q-Function Network model weights after Training at Episode : 2590
+Save Target Network model weights after Training at Episode : 2590
+Save Q-Function Network model weights after Training at Episode : 2595
+Save Target Network model weights after Training at Episode : 2595
+2019/11/16 10:16:57
+Current Training Episode:  2600  / Total Training Episodes: 3000
+2019/11/16 10:17:05
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 10:17:14
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 2600
+Save Target Network model weights after Training at Episode : 2600
+Current Epsilon while Training is  0.01  Current Training Step is  2600000
+Save Q-Function Network model weights after Training at Episode : 2605
+Save Target Network model weights after Training at Episode : 2605
+Save Q-Function Network model weights after Training at Episode : 2610
+Save Target Network model weights after Training at Episode : 2610
+Save Q-Function Network model weights after Training at Episode : 2615
+Save Target Network model weights after Training at Episode : 2615
+Save Q-Function Network model weights after Training at Episode : 2620
+Save Target Network model weights after Training at Episode : 2620
+Save Q-Function Network model weights after Training at Episode : 2625
+Save Target Network model weights after Training at Episode : 2625
+Save Q-Function Network model weights after Training at Episode : 2630
+Save Target Network model weights after Training at Episode : 2630
+Save Q-Function Network model weights after Training at Episode : 2635
+Save Target Network model weights after Training at Episode : 2635
+Save Q-Function Network model weights after Training at Episode : 2640
+Save Target Network model weights after Training at Episode : 2640
+Save Q-Function Network model weights after Training at Episode : 2645
+Save Target Network model weights after Training at Episode : 2645
+Save Q-Function Network model weights after Training at Episode : 2650
+Save Target Network model weights after Training at Episode : 2650
+Current Epsilon while Training is  0.01  Current Training Step is  2650000
+Save Q-Function Network model weights after Training at Episode : 2655
+Save Target Network model weights after Training at Episode : 2655
+Save Q-Function Network model weights after Training at Episode : 2660
+Save Target Network model weights after Training at Episode : 2660
+Save Q-Function Network model weights after Training at Episode : 2665
+Save Target Network model weights after Training at Episode : 2665
+Save Q-Function Network model weights after Training at Episode : 2670
+Save Target Network model weights after Training at Episode : 2670
+Save Q-Function Network model weights after Training at Episode : 2675
+Save Target Network model weights after Training at Episode : 2675
+Save Q-Function Network model weights after Training at Episode : 2680
+Save Target Network model weights after Training at Episode : 2680
+Save Q-Function Network model weights after Training at Episode : 2685
+Save Target Network model weights after Training at Episode : 2685
+Save Q-Function Network model weights after Training at Episode : 2690
+Save Target Network model weights after Training at Episode : 2690
+Save Q-Function Network model weights after Training at Episode : 2695
+Save Target Network model weights after Training at Episode : 2695
+Save Q-Function Network model weights after Training at Episode : 2700
+Save Target Network model weights after Training at Episode : 2700
+Current Epsilon while Training is  0.01  Current Training Step is  2700000
+Save Q-Function Network model weights after Training at Episode : 2705
+Save Target Network model weights after Training at Episode : 2705
+Save Q-Function Network model weights after Training at Episode : 2710
+Save Target Network model weights after Training at Episode : 2710
+Save Q-Function Network model weights after Training at Episode : 2715
+Save Target Network model weights after Training at Episode : 2715
+Save Q-Function Network model weights after Training at Episode : 2720
+Save Target Network model weights after Training at Episode : 2720
+Save Q-Function Network model weights after Training at Episode : 2725
+Save Target Network model weights after Training at Episode : 2725
+Save Q-Function Network model weights after Training at Episode : 2730
+Save Target Network model weights after Training at Episode : 2730
+Save Q-Function Network model weights after Training at Episode : 2735
+Save Target Network model weights after Training at Episode : 2735
+Save Q-Function Network model weights after Training at Episode : 2740
+Save Target Network model weights after Training at Episode : 2740
+Save Q-Function Network model weights after Training at Episode : 2745
+Save Target Network model weights after Training at Episode : 2745
+Save Q-Function Network model weights after Training at Episode : 2750
+Save Target Network model weights after Training at Episode : 2750
+Current Epsilon while Training is  0.01  Current Training Step is  2750000
+Save Q-Function Network model weights after Training at Episode : 2755
+Save Target Network model weights after Training at Episode : 2755
+Save Q-Function Network model weights after Training at Episode : 2760
+Save Target Network model weights after Training at Episode : 2760
+Save Q-Function Network model weights after Training at Episode : 2765
+Save Target Network model weights after Training at Episode : 2765
+Save Q-Function Network model weights after Training at Episode : 2770
+Save Target Network model weights after Training at Episode : 2770
+Save Q-Function Network model weights after Training at Episode : 2775
+Save Target Network model weights after Training at Episode : 2775
+Save Q-Function Network model weights after Training at Episode : 2780
+Save Target Network model weights after Training at Episode : 2780
+Save Q-Function Network model weights after Training at Episode : 2785
+Save Target Network model weights after Training at Episode : 2785
+Save Q-Function Network model weights after Training at Episode : 2790
+Save Target Network model weights after Training at Episode : 2790
+Save Q-Function Network model weights after Training at Episode : 2795
+Save Target Network model weights after Training at Episode : 2795
+2019/11/16 11:21:10
+Current Training Episode:  2800  / Total Training Episodes: 3000
+2019/11/16 11:21:20
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 11:21:31
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 2800
+Save Target Network model weights after Training at Episode : 2800
+Current Epsilon while Training is  0.01  Current Training Step is  2800000
+Save Q-Function Network model weights after Training at Episode : 2805
+Save Target Network model weights after Training at Episode : 2805
+Save Q-Function Network model weights after Training at Episode : 2810
+Save Target Network model weights after Training at Episode : 2810
+Save Q-Function Network model weights after Training at Episode : 2815
+Save Target Network model weights after Training at Episode : 2815
+Save Q-Function Network model weights after Training at Episode : 2820
+Save Target Network model weights after Training at Episode : 2820
+Save Q-Function Network model weights after Training at Episode : 2825
+Save Target Network model weights after Training at Episode : 2825
+Save Q-Function Network model weights after Training at Episode : 2830
+Save Target Network model weights after Training at Episode : 2830
+Save Q-Function Network model weights after Training at Episode : 2835
+Save Target Network model weights after Training at Episode : 2835
+Save Q-Function Network model weights after Training at Episode : 2840
+Save Target Network model weights after Training at Episode : 2840
+Save Q-Function Network model weights after Training at Episode : 2845
+Save Target Network model weights after Training at Episode : 2845
+Save Q-Function Network model weights after Training at Episode : 2850
+Save Target Network model weights after Training at Episode : 2850
+Current Epsilon while Training is  0.01  Current Training Step is  2850000
+Save Q-Function Network model weights after Training at Episode : 2855
+Save Target Network model weights after Training at Episode : 2855
+Save Q-Function Network model weights after Training at Episode : 2860
+Save Target Network model weights after Training at Episode : 2860
+Save Q-Function Network model weights after Training at Episode : 2865
+Save Target Network model weights after Training at Episode : 2865
+Save Q-Function Network model weights after Training at Episode : 2870
+Save Target Network model weights after Training at Episode : 2870
+Save Q-Function Network model weights after Training at Episode : 2875
+Save Target Network model weights after Training at Episode : 2875
+Save Q-Function Network model weights after Training at Episode : 2880
+Save Target Network model weights after Training at Episode : 2880
+Save Q-Function Network model weights after Training at Episode : 2885
+Save Target Network model weights after Training at Episode : 2885
+Save Q-Function Network model weights after Training at Episode : 2890
+Save Target Network model weights after Training at Episode : 2890
+Save Q-Function Network model weights after Training at Episode : 2895
+Save Target Network model weights after Training at Episode : 2895
+Save Q-Function Network model weights after Training at Episode : 2900
+Save Target Network model weights after Training at Episode : 2900
+Current Epsilon while Training is  0.01  Current Training Step is  2900000
+Save Q-Function Network model weights after Training at Episode : 2905
+Save Target Network model weights after Training at Episode : 2905
+Save Q-Function Network model weights after Training at Episode : 2910
+Save Target Network model weights after Training at Episode : 2910
+Save Q-Function Network model weights after Training at Episode : 2915
+Save Target Network model weights after Training at Episode : 2915
+Save Q-Function Network model weights after Training at Episode : 2920
+Save Target Network model weights after Training at Episode : 2920
+Save Q-Function Network model weights after Training at Episode : 2925
+Save Target Network model weights after Training at Episode : 2925
+Save Q-Function Network model weights after Training at Episode : 2930
+Save Target Network model weights after Training at Episode : 2930
+Save Q-Function Network model weights after Training at Episode : 2935
+Save Target Network model weights after Training at Episode : 2935
+Save Q-Function Network model weights after Training at Episode : 2940
+Save Target Network model weights after Training at Episode : 2940
+Save Q-Function Network model weights after Training at Episode : 2945
+Save Target Network model weights after Training at Episode : 2945
+Save Q-Function Network model weights after Training at Episode : 2950
+Save Target Network model weights after Training at Episode : 2950
+Current Epsilon while Training is  0.01  Current Training Step is  2950000
+Save Q-Function Network model weights after Training at Episode : 2955
+Save Target Network model weights after Training at Episode : 2955
+Save Q-Function Network model weights after Training at Episode : 2960
+Save Target Network model weights after Training at Episode : 2960
+Save Q-Function Network model weights after Training at Episode : 2965
+Save Target Network model weights after Training at Episode : 2965
+Save Q-Function Network model weights after Training at Episode : 2970
+Save Target Network model weights after Training at Episode : 2970
+Save Q-Function Network model weights after Training at Episode : 2975
+Save Target Network model weights after Training at Episode : 2975
+Save Q-Function Network model weights after Training at Episode : 2980
+Save Target Network model weights after Training at Episode : 2980
+Save Q-Function Network model weights after Training at Episode : 2985
+Save Target Network model weights after Training at Episode : 2985
+Save Q-Function Network model weights after Training at Episode : 2990
+Save Target Network model weights after Training at Episode : 2990
+Save Q-Function Network model weights after Training at Episode : 2995
+Save Target Network model weights after Training at Episode : 2995
+2019/11/16 12:32:29
+Current Training Episode:  3000  / Total Training Episodes: 3000
+2019/11/16 12:32:38
+Current Training Step:  10  / Total Training Steps: 20
+2019/11/16 12:32:48
+Current Training Step:  20  / Total Training Steps: 20
+Save Q-Function Network model weights after Training at Episode : 3000
+Save Target Network model weights after Training at Episode : 3000
+Current OS is Windows！
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Current OS is Windows！
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Current OS is Windows！
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Current OS is Windows！
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+RL Training is finished!
+
+Process finished with exit code 0

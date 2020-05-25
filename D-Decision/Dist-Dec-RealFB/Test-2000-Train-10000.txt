@@ -1,0 +1,165 @@
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\python.exe D:/Simulation/Learn-RA-V2X-Code/D-Decision/Dist-Dec-RealFB/RL_Run_main.py
+Using TensorFlow backend.
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:523: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:524: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+D:\ProgramData\Anaconda3\envs\keras-tensorflow\lib\site-packages\tensorflow\python\framework\dtypes.py:532: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+>>>>>>>>>Testing FB = 3 -BS Outputs = 12 at different random seeds<<<<<<<<<
+----- Start the Number -- 1 -- Testing -----!
+2019/11/21 20:20:24
+Current Training Parameters Settings are: 
+Number of feedback:  3
+Discount Factor Gamma:  0.05
+Batch Size:  512
+Training Episodes:  10000
+Train Steps per Episode:  20
+2019-11-21 20:20:25.420962: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX AVX2
+2019-11-21 20:20:25.576156: E tensorflow/stream_executor/cuda/cuda_driver.cc:300] failed call to cuInit: CUDA_ERROR_NO_DEVICE: no CUDA-capable device is detected
+2019-11-21 20:20:25.579651: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:163] retrieving CUDA diagnostic information for host: LWang-PC
+2019-11-21 20:20:25.579924: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:170] hostname: LWang-PC
+Load the trained model successfully under this setting!
+-----Current Testing Parameters Settings are: 
+     Number of feedback:  3
+     Discount Factor Gamma:  0.05
+     Optimal Scheme Flag:  False
+     Batch Size:  512
+     Testing Episodes:  2000
+     Testing Steps per Episode:  1000
+     Testing Seed:  1
+     Number of BS Outputs:  12
+     V2V Rate weight:  1
+     V2I Rate weight:  0.1
+To Run Dist-Dec RL-DNN Test without Optimal Scheme!
+2019/11/21 20:26:06
+Current Running Episode:  200  / Total Running Episodes: 2000
+2019/11/21 20:26:07
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:26:08
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 20:31:54
+Current Running Episode:  400  / Total Running Episodes: 2000
+2019/11/21 20:31:55
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:31:55
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 20:37:43
+Current Running Episode:  600  / Total Running Episodes: 2000
+2019/11/21 20:37:43
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:37:44
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 20:43:39
+Current Running Episode:  800  / Total Running Episodes: 2000
+2019/11/21 20:43:40
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:43:41
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 20:49:28
+Current Running Episode:  1000  / Total Running Episodes: 2000
+2019/11/21 20:49:29
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:49:30
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 20:55:11
+Current Running Episode:  1200  / Total Running Episodes: 2000
+2019/11/21 20:55:11
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 20:55:12
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 21:00:55
+Current Running Episode:  1400  / Total Running Episodes: 2000
+2019/11/21 21:00:56
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 21:00:57
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 21:06:41
+Current Running Episode:  1600  / Total Running Episodes: 2000
+2019/11/21 21:06:42
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 21:06:42
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 21:12:28
+Current Running Episode:  1800  / Total Running Episodes: 2000
+2019/11/21 21:12:29
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 21:12:30
+Current Running Step:  1000  / Total Running Steps: 1000
+2019/11/21 21:18:25
+Current Running Episode:  2000  / Total Running Episodes: 2000
+2019/11/21 21:18:26
+Current Running Step:  500  / Total Running Steps: 1000
+2019/11/21 21:18:27
+Current Running Step:  1000  / Total Running Steps: 1000
+Finish Running Real-FB D-Decision Test without Optimal Scheme!
+Create the new folder in Test main without Opt-Scheme  D:\Simulation\Learn-RA-V2X-Code\D-Decision\Dist-Dec-RealFB\Run-Result-RealFB-3-Batch-512-Gamma-0.05-BSOutput-12-Seed-1-V2Iweight-0.1\
+------> Testing Results for V2V link are: 
+      The indexes of episodes, where RL is worse than RA  are  (array([], dtype=int64),)
+      The return differences of episodes, where RL is worse than RA  are  []
+      The number of episodes, where RL is better than RA  are  2000
+      The average return of RL is  10762.951935783729
+      The average return of RA scheme is  5712.081014006045
+*******> Testing Results for V2V link are: 
+      The average V2V rate per episode  of RL scheme is  7942.799807111468
+      The average V2V rate per episode of RA scheme is  3172.7017629457464
+*******> Testing Results for V2I link are: 
+      The average V2I rate of RL scheme is  28201.521286722535
+      The average V2I rate of RA scheme is  25393.792510603
+$$$$$$$> Testing Results for V2B Interference are: 
+      The average V2B interference of RL scheme is  2.5884918807419728e-08
+      The average V2B interference of RA scheme is  2.6808291385754287e-08
+$$$$$$$> Testing Results for V2B Sum Rate control are: 
+Current V2I Sum Rate Threshold =  18
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.977061
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.9579025
+Current V2I Sum Rate Threshold =  19
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.9583935
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.927
+Current V2I Sum Rate Threshold =  20
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.930776
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.8821985
+Current V2I Sum Rate Threshold =  21
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.8937195
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.8236345
+Current V2I Sum Rate Threshold =  22
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.846848
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.7526665
+Current V2I Sum Rate Threshold =  23
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.791477
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.6717005
+Current V2I Sum Rate Threshold =  24
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.7294825
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.585035
+Current V2I Sum Rate Threshold =  25
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.6636365
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.4979055
+Current V2I Sum Rate Threshold =  26
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.5964575
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.414534
+Current V2I Sum Rate Threshold =  27
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.530264
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.337713
+Current V2I Sum Rate Threshold =  28
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.466177
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.269542
+Current V2I Sum Rate Threshold =  29
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.405604
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.210795
+Current V2I Sum Rate Threshold =  30
+      The average Succeed Ratio of V2I Sum Rate of RL scheme is  0.3492815
+      The average Succeed Ratio of V2I Sum Rate of RA scheme is  0.1620495
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+Save testing results！ Current OS is Windows！
+RL Testing is finished!
+
+Process finished with exit code 0
