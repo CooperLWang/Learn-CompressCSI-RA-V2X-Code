@@ -11,7 +11,7 @@ import numpy as np
 import tensorflow as tf
 from Sim_Config import RL_Config
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = " "    # use GPU 1 to run this code
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"    # use GPU 1 to run this code
 
 
 def main():
