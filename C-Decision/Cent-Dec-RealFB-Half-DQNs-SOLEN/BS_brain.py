@@ -2,7 +2,7 @@
 # here we use D2D and V2V interchangeably
 # for performance comparison, add the spectrum sharing scheme adapted from SOLEN ( Wanlu Sun 2016 TVT )
 # For spectrum sharing in SOLEN scheme, where each CUE occupies one channel and each VUE also transmits one channel.
-# the orthogonal RB allocation among all CUEs and VUEs    --- Nov. 18 2019
+# the orthogonal RB allocation among all CUEs and VUEs    
 
 
 from scipy.special import comb
