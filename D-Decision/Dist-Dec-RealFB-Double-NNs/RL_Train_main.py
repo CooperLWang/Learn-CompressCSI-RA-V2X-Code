@@ -10,12 +10,12 @@ import tensorflow as tf
 from Sim_Config import RL_Config
 import os
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
-os.environ["CUDA_VISIBLE_DEVICES"] = " "    # use GPU 0 to run this code
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"    # use GPU 0 to run this code
 
 
 def main():
     """
-    Train the agent
+    main function to train the agent
     """
     # number of different trainings settings
     train_num = [1,  2,  3,  4,  5,
@@ -92,7 +92,9 @@ def start_env():
 
 def run_train(Env, curr_RL_Config):
     # run the training process
-
+    """
+    Train the agents
+    """
     Num_neighbor = Env.n_Neighbor
     Num_d2d = Env.n_Veh
     Num_CH = Env.n_RB
@@ -117,7 +119,9 @@ def save_train_results(Train_Loss, Reward_Per_Train_Step, Reward_Per_Episode,
                        curr_rl_config, Env):
 
     # plot and save the training results
-
+    """
+    Record and show the results
+    """
     # get the current training parameter values from curr_rl_config
     Batch_Size = curr_rl_config.Batch_Size
     Num_Train_Step = curr_rl_config.Num_Train_Steps
